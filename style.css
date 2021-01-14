@@ -1,0 +1,168 @@
+.header-area {
+    background: #f7eeee;
+}
+
+.logo {
+    width: 250px
+}
+
+.nav-item {
+    font-size: 20px;
+    color: 000;
+    padding: 5px;
+}
+
+.first-part h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: poppins;
+}
+
+.larg-text1 {
+    color: gold;
+    font-family: helvetica;
+}
+
+.first-part p {}
+
+.btn,
+.by-now {
+    border: 1px solid #9fc897;
+    background: #43dd4dbd;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.by-now img {
+    width: 25px;
+}
+
+.hero-image {
+    height: 90%;
+}
+
+@media only screen and (max-width: 668px) {
+    .feature-left-image img {
+        width: 75px;
+        margin-top: 20px;
+        margin-left: 76px;
+    }
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+/*--------------------jacket section----------------------*/
+
+.card-img,
+.card-img-top {
+    background: #dfdddd42;
+    border: 20px solid #fff;
+    border-radius: 10%;
+    height: 350px;
+    padding: 20px;
+}
+
+.card-body h5 {
+    color: #000;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-body p {
+    text-align: justify;
+    font-size: px;
+}
+
+.price p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e3bc23;
+    margin-left: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+
+/*--------------------Feature section----------------------*/
+
+.feature-left-image img {
+    width: 75px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.feature-img-right img {
+    background: none !important;
+}
+
+
+/*--------------------------------------------------------------*/
+
+.fixed-image {
+    background: url(images/Apparel-Buying-House.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.fixed-image h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.fixed-image p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.btn2 {
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: yellowgreen;
+    transition: .03s;
+}
+
+.btn3 {
+    height: 40px;
+    width: 100px;
+    background: transparent#fff;
+    color: yellowgreen;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.btn3:hover {
+    background-color: rgb(168, 151, 151);
+    color: #fff;
+    border: none;
+    outline: navajowhite;
+    transition: .03s;
+}
+
+.content-area {
+    text-align: justify;
+}
